@@ -6,6 +6,47 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="page-header bg-white shadow-lg" id="page-header">
+        <div class="container flex items-center">
+            <a href="#">
+                    <img src="C:\Users\Asus\OneDrive\Desktop\Raj Sir\www.sdintl.com\www.sdintl.com\wp-content\uploads\2018\09\Black White Simple Monochrome Initial Name Logo (2).svg" class="logo" alt="Company Logo">
+                </a>
+
+            <i class="fas fa-bars mobile-nav-open" @click="toggleMobileNav"></i>
+
+            <nav class="primary-navigation" id="primary-navigation">
+                <i class="fas fa-times mobile-nav-close" :class="{'hidden' : !mobileNavOpen}" @click="toggleMobileNav"></i>
+                <ul class="primary-menu" id="primary-menu">
+                    <li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-493"><a href="#">About</a>
+                        <ul class="sub-menu">   
+                        </ul>
+                    </li>
+                    <li id="menu-item-492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-492"><a href="#">Services</a>
+                        <ul class="sub-menu">
+                        </ul>
+                    </li>
+                    <li id="menu-item-1034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1034"><a href="#">Gallery</a></li>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="btn-contact"><span>Contact</span></a>
+                    </li>
+
+                    <li class="contact-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div>
+                            561.288.4079 </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <address>
+            <strong>Global Headquarters</strong><br />
+2500 N. Military Trail, Suite 318<br />
+Boca Raton, FL  33431            </address>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 </body>
 </html>
