@@ -1,0 +1,76 @@
+footer {
+    background-color: rgb(0, 0, 43);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    width: 160px; /* Adjust the width as needed */
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.footer-navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+    justify-content: center;
+}
+
+.footer-navbar li {
+    margin: 0 15px;
+}
+
+.footer-navbar a {
+    
+    text-decoration: none;
+    font-size: 25px;
+    color:  rgb(184, 194, 204);
+    height: 30px;
+    font-weight: 300px;
+}
+
+.footer-navbar a:hover {
+    /* Add underline effect on hover */
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media only screen and (min-width: 768px) {
+    .footer-navbar li {
+        display : inline-block;
+        margin: 0 15px; /* Add space between vertical items */
+    }
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    margin: 0 15px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+/*End Of Footer css */

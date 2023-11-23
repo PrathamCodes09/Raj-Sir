@@ -1,3 +1,17 @@
+
+
+h2 {
+color: #333;
+}
+
+p {
+color: #555;
+}
+
+hr {
+border-color: #ccc;
+}
+
 /* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -144,6 +158,12 @@ body{
  .container .content .right-side{
    width: 100%;
    margin-left: 0;
+ }
+ .content{
+  order: 1;
+ }
+ .register{
+  order : 2;
  }
 }
 
