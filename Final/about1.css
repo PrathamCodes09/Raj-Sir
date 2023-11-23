@@ -1,0 +1,137 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+
+.imagesection{ 
+    height: 400px;
+    width: 100%;
+    /* background-image: url("C:\Users\Asus\OneDrive\Desktop\Raj Sir\images\port-6670684_1920.jpg") ; */
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+#heading{
+    font-size: 60px;
+    padding-left: 110px;
+    padding-top: 185px;
+    color: aliceblue;
+    
+}
+
+#para{
+    font-size: 28px;
+    padding-left: 250px;
+    padding-top: 40px;
+    color: aliceblue;
+}
+
+@media(max-width: 646px){
+    .imagesection{
+        background-repeat: no-repeat;
+        height: 200px;
+        background-size: contain;
+        
+    }
+    #heading{
+        font-size: 30px;
+        padding-left: 10px;
+        padding-top: 106px;
+    }
+    #para{
+        font-size: 14;
+        padding-left: 70px;
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 650px) and(max-width: 1300){
+    .imagesection{
+        background-repeat: no-repeat;
+        height: 300px;
+        background-size: contain;
+    }
+    #heading{
+        font-size: 40px;
+        padding-left: 60px;
+        padding-top: 40px;
+    }
+    #para{
+        font-size: 20;
+        padding-left: 70px;
+        padding-top: 30px;
+    }
+}
+/* Css for the about us company */
+
+.cmp-container {
+    border: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 13px;
+}
+
+.cmp-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.cmp-image {
+    flex: 1;
+    text-align: right;
+}
+
+img {
+    max-width: 70%; /* Set the maximum width to 75% of the screen size */
+    height: auto;
+}
+
+.m-info{
+    font-size: 20px;
+    text-align:justify;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .cmp-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .cmp-content {
+        order: 2;
+       }  
+   
+   .cmp-image{
+       order: 1;
+   }
+
+    .cmp-image {
+        text-align: center;
+    }
+
+    img {
+        max-width: 70%;
+        height: auto;
+        margin-bottom: 3px;
+    }
+
+    .navbar-logo {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 3px;
+    }
+}
+
+
+
+
