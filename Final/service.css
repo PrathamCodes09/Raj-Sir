@@ -1,6 +1,12 @@
 /* custom font from google fonts */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
+.service-head h1{
+  font-size: 50px;
+  font-weight: 300px;
+  animation: step-start;
+}
+
 /* Basic styling and positioning of elements */
 #some-box {color:#444;font-size:16px;}
 #some-box {background:#fff;padding:40px 0px 80px;font-family:'Open Sans', sans-serif;}

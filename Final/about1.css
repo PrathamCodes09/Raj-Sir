@@ -1,4 +1,4 @@
-/* *{
+/* /* *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -19,7 +19,7 @@
     font-size: 60px;
     padding-left: 110px;
     padding-top: 185px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -30,29 +30,32 @@
     color: aliceblue;
 }
 
-@media(max-width: 646px){
+@media(max-width: 450px){
     .imagesection{
-        background-repeat: no-repeat;
-        height: 200px;
+        background-color:aliceblue;
+        background-image: none !important;
+        /* background-repeat: no-repeat; */
+        height: 114px;
         background-size: contain;
-        
     }
     #heading{
-        font-size: 30px;
-        padding-left: 10px;
-        padding-top: 106px;
+        color: black;
+        font-size: 50px;
+        padding-left: 86px;
+        padding-top: 40px;
+        
     }
-    #para{
+    /* #para{
         font-size: 14;
         padding-left: 70px;
         padding-top: 30px;
-    }
+    } */
 }
 
 @media (min-width: 650px) and(max-width: 1300){
     .imagesection{
         background-repeat: no-repeat;
-        height: 300px;
+        height: 600px;
         background-size: contain;
     }
     #heading{
@@ -131,7 +134,3 @@ img {
         margin-bottom: 3px;
     }
 }
-
-
-
-
